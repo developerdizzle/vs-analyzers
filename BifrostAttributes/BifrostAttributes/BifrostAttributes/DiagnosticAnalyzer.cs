@@ -41,6 +41,9 @@ namespace BifrostAttributes
             if (namedTypeSymbol.TypeKind != TypeKind.Interface)
                 return;
 
+            if (!namedTypeSymbol.Name.EndsWith("Service"))
+                return;
+
             if (!namedTypeSymbol.ContainingNamespace.ToString().EndsWith(".Client.Services"))
                 return;
 

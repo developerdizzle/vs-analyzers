@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BifrostPathAttributeAnalyzer", "BifrostPathAttributeAnalyzer\BifrostPathAttributeAnalyzer\BifrostPathAttributeAnalyzer.csproj", "{186D674B-187B-48B6-9392-FBDD0ADA4552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BifrostPathAttributeAnalyzer.Test", "BifrostPathAttributeAnalyzer\BifrostPathAttributeAnalyzer.Test\BifrostPathAttributeAnalyzer.Test.csproj", "{01412E52-7425-4A62-8E67-5F86C4B2CF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BifrostPathAttributeAnalyzer.Vsix", "BifrostPathAttributeAnalyzer\BifrostPathAttributeAnalyzer.Vsix\BifrostPathAttributeAnalyzer.Vsix.csproj", "{57E31C33-6B75-4BD1-9C5C-1CDAA7F52C05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186D674B-187B-48B6-9392-FBDD0ADA4552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186D674B-187B-48B6-9392-FBDD0ADA4552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186D674B-187B-48B6-9392-FBDD0ADA4552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186D674B-187B-48B6-9392-FBDD0ADA4552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01412E52-7425-4A62-8E67-5F86C4B2CF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01412E52-7425-4A62-8E67-5F86C4B2CF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01412E52-7425-4A62-8E67-5F86C4B2CF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01412E52-7425-4A62-8E67-5F86C4B2CF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E31C33-6B75-4BD1-9C5C-1CDAA7F52C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E31C33-6B75-4BD1-9C5C-1CDAA7F52C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E31C33-6B75-4BD1-9C5C-1CDAA7F52C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E31C33-6B75-4BD1-9C5C-1CDAA7F52C05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
