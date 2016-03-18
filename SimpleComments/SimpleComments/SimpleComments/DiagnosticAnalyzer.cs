@@ -46,7 +46,7 @@ namespace SimpleComments
                 bool requiresDiatnostic = false;
 
                 var commentText = node.ToString().TrimStart('/');
-                if (commentText.Length == 0)
+                if (string.IsNullOrWhiteSpace(commentText))
                     continue;
 
                 if (!commentText.StartsWith(" "))
